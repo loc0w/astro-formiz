@@ -1,6 +1,12 @@
 # astro-formiz
 
+[![npm version](https://img.shields.io/npm/v/astro-formiz.svg?color=1c1c1a&labelColor=1c1c1a&style=flat-square)](https://www.npmjs.com/package/astro-formiz)
+[![npm downloads](https://img.shields.io/npm/dm/astro-formiz.svg?color=cbef4a&labelColor=1c1c1a&style=flat-square)](https://www.npmjs.com/package/astro-formiz)
+[![license](https://img.shields.io/npm/l/astro-formiz.svg?color=cbef4a&labelColor=1c1c1a&style=flat-square)](./LICENSE)
+
 A working contact form for static Astro sites. Your form posts straight to [Formiz](https://formiz.app) — no API route, no SSR adapter, no server.
+
+![How it works: your static Astro site posts the form to one endpoint, which filters spam, stores the submission and delivers it to email, Telegram or a webhook](https://raw.githubusercontent.com/loc0w/astro-formiz/main/media/flow.png)
 
 ```sh
 npm install astro-formiz
