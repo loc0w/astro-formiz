@@ -1,0 +1,42 @@
+{
+  "name": "astro-formiz",
+  "version": "0.1.0",
+  "description": "A working contact form for static Astro sites. Posts straight to the Formiz form backend - no API route, no adapter, no server.",
+  "keywords": [
+    "astro-component",
+    "withastro",
+    "astro",
+    "forms",
+    "contact-form",
+    "form-backend",
+    "static-site",
+    "formiz"
+  ],
+  "homepage": "https://formiz.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loc0w/astro-formiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loc0w/astro-formiz/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./FormizForm.astro": "./FormizForm.astro"
+  },
+  "files": [
+    "index.ts",
+    "FormizForm.astro",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "astro": "^4.0.0 || ^5.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
