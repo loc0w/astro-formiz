@@ -1,6 +1,6 @@
 {
   "name": "astro-formiz",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A working contact form for static Astro sites. Posts straight to the Formiz form backend - no API route, no adapter, no server.",
   "keywords": [
     "astro-component",
